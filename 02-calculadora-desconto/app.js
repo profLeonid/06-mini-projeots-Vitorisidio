@@ -9,7 +9,9 @@ function calcularDesconto() {
 
     if (preco.value && desconto.value) {
         let resultadoCalculo = preco.value *(desconto.value/100)
-        resultado.textContent = resultadoCalculo
+        let precoFinal = preco.value - resultadoCalculo 
+        resultado.textContent = resultadoCalculo +"\n" + "você economizou: " + precoFinal + " Reais"
+
 
     } else {
                 resultado.textContent = 'PREENCHA O CAMPO VAZIO'
