@@ -1,3 +1,5 @@
+'use strict'
+
 function calcularMedia() {
 
     const nota1 = document.getElementById('nota1')
