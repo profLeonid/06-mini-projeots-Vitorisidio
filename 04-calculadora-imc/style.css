@@ -111,6 +111,31 @@ button:hover {
   justify-content: center;
 }
 
+.resultado.abaixo {
+  border: 2px solid #1e3a5f;
+}
+
+.resultado.normal {
+  border: 2px solid #14532d;
+}
+
+.resultado.sobrepeso {
+  border: 2px solid #713f12;
+}
+
+.resultado.obesidadeI {
+  border: 2px solid #7f1d1d;
+}
+
+.resultado.obesidadeII {
+  border: 2px solid #6b0f0f;
+}
+
+.resultado.obesidadeIII {
+  border: 2px solid #450a0a;
+}
+
+
 footer {
   display: flex;
   align-items: flex-end;
